@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+body {
+  margin: 0, auto;
+  font-family: atticantique, serif;
+  color: black;
+  border: 15px solid black;
+  min-width: 875px;
+  background: linear-gradient()
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  background-color: #eee;
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 10px double mediumpurple;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a[aria-current='page'] {
+  color: #fff;
+  background-color: #6666ff;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.page {
+  border: 5px solid black;
+  padding: 7px;
+}
+
+input {
+
+}
+
