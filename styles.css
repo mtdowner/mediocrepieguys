@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
- 
 }
 
 body {
   margin: 0, auto;
-  font-family: atticantique, serif;
+  font-family: "Nitti Open";
   color: black;
   border: 15px solid black;
   min-width: 875px;
@@ -34,7 +33,7 @@ nav a {
 }
 
 nav a[aria-current='page'] {
-  color: #fff;
+  color: lightgreen;
   background-color: #6666ff;
 }
 
@@ -51,8 +50,3 @@ h1 {
   border: 5px solid black;
   padding: 7px;
 }
-
-input {
-
-}
-
